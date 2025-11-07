@@ -10,6 +10,7 @@ document.getElementById('loadMoreBtn').addEventListener('click', function() {
         button.innerText = 'Leia mais sobre Big Data';
     }
 });
+// Script de Teste
 // Script para o envio do formulário
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
