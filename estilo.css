@@ -8,7 +8,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #b3e5fc, #ec068c);
+    background: linear-gradient(135deg, #b3e5fc, #93cbff);
     min-height: 100vh;
     padding-top: 80px;
 }
