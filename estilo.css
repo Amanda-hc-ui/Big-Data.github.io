@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'verdana';
   background-color: #bad3ff;
   color: #000000;
   scroll-behavior: smooth;
@@ -20,90 +20,33 @@ body {
   background: linear-gradient(135deg, #b3e5fc, #93cbff);
   min-height: 100vh;
   padding-top: 80px;
-
-}
-header {
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
-    text-align: center;
-    padding: 20px 0;
 }
 
-/* ---------- SEÇÃO SOBRE ---------- */
+/* Sobre */
 #sobre {
-    background-color: #199bd2;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin: 20px auto;
-    max-width: 900px;
-    text-align: center;
-}
-section {
-   background-color: #f70525;
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 15px auto;
+  text-align: justify;
 }
 
-/* ---------- CONTAINER PRINCIPAL ---------- */
-main {
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-/* Botões e links */
-.btn-primary {
-  background-color: #1976d2;
-  color: white;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: #1565c0;
-}
-
-.text-primary {
-  color: #3a8edb !important;
-}
-
-/* Navbar */
-.navbar-light .navbar-nav .nav-link {
-  color: #3a8edb;
-  font-weight: 500;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #2466a2;
-}
-
-/* Unificado - Cards */
+/* Cards */
 .card {
   border: 2px solid #1976d2;
   border-radius: 8px;
+  background-color: white;
   padding: 20px;
-  height: 300px;
-  background-color: #ffffff;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+  text-align: justify;
+  height: auto; /* Corrige o problema */
 }
+
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-/* Modal */
-.modal-content {
-  background-color: #0d47a1;
-  border-radius: 10px;
-  border: 2px solid #1976d2;
-}
-.modal-header {
-  border-bottom: 2px solid #1565c0;
-}
-.modal-title {
-  color: #e3f2fd;
-}
-.btn-close-white {
-  filter: invert(1);
 }
 
 /* Inputs */
@@ -111,39 +54,12 @@ main {
   border: 2px solid #2196f3;
   background-color: #e3f2fd;
 }
+
 .form-control:focus {
   border-color: #1976d2;
   background-color: #bbdefb;
 }
 
-/* Botão Enviar */
-.btn-purple {
-  background-color: #1e88e5;
-  color: white;
-  border: none;
-  transition: background-color 0.3s ease;
-}
-.btn-purple:hover {
-  background-color: #1565c0;
-}
-
-/* Botão Contato fixo */
-#contatoBtn {
-  position: fixed;
-  top: 6px;
-  right: 20px;
-  background-color: #2196f3;
-  color: white;
-  border-radius: 15px;
-  padding: 10px 40px;
-  font-size: 1.1em;
-  transition: background-color 0.3s ease;
-  z-index: 1050;
-}
-#contatoBtn:hover {
-  background-color: #1565c0;
-  cursor: pointer;
-}
 
 /* Footer */
 .footer {
@@ -152,11 +68,13 @@ main {
   text-align: center;
   padding: 60px 0;
 }
+
 .footer .footer-link {
   color: #bbdefb;
   text-decoration: none;
   font-weight: bold;
 }
+
 .footer .footer-link:hover {
   color: #e3f2fd;
   text-decoration: underline;
