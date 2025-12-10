@@ -14,14 +14,4 @@ if (button && moreContent) {
   });
 }
 
-// =========================
-// Envio de formulário
-// =========================
-const formContato = document.getElementById('formContato');
-if (formContato) {
-  formContato.addEventListener('submit', function (event) {
-    event.preventDefault();
-    alert('Sua mensagem foi enviada com sucesso!');
-  });
-}
 
